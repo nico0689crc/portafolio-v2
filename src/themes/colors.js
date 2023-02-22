@@ -2,20 +2,19 @@ import { red, grey } from '@mui/material/colors';
 
 const colors = {
   primary: {
-    lightBackground: "#f344511a",
-    main: "#f34451",
+    main: "#ffd51a",
   },
   background: {
     "dark-mode": {
-      default: "#1b1b1b",
-      paper: "#232323",
+      default: "#191c26",
+      paper: "#000000",
       button: {
         regular: "#ffffff1a",
         hover: "#ffffff33"
       } 
     },
     "light-mode": {
-      default: "#f0f0f0",
+      default: "#f5f8fc",
       paper: "#ffffff",
       button: {
         regular: red['50'],
