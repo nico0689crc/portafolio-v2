@@ -2,6 +2,7 @@ import { Paper, Drawer, useMediaQuery, useTheme } from "@mui/material";
 import { Box } from "@mui/system";
 import { useSelector, useDispatch } from "react-redux";
 import { uiActions } from 'store/ui/uiSlice';
+import SidebarContent from "./SidebarContent/SidebarContent";
 
 const Sidebar = () => {
   const theme = useTheme();
@@ -16,7 +17,9 @@ const Sidebar = () => {
   return (
     matchUpMd ? (
       <Paper elevation={2}>
-        <Box sx={{width: '20rem'}}></Box>
+        <Box sx={{width: '20rem', height: '100%'}}>
+          <SidebarContent />
+        </Box>
       </Paper>
     ) : (
       <Drawer
@@ -27,12 +30,13 @@ const Sidebar = () => {
         <Box 
           sx={{
             width: '17.5rem',
+            height: '100%',
             [theme.breakpoints.up('sm')]: {
               width: '20rem',
             },
           }}
         >
-          
+          <SidebarContent />
         </Box>
       </Drawer>
     )

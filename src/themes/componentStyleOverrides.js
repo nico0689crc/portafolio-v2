@@ -5,13 +5,31 @@ const componentStyleOverrides = ({isDarkMode, colors, theme}) => {
         root: {
           "&.MuiFabCustomized": {
             position: 'absolute',
-            right: '1.5rem',
-            width: '2.75rem',
-            height: '2.75rem'
+            right: '1.5rem'
           }
         }
       }
     },
+    MuiDivider: {
+      styleOverrides: {
+        root: {
+          "&.MuiDividerCustomized": {
+            ...(isDarkMode ? { borderColor: colors.primary.main } : {})
+          }
+        }
+      }
+    },
+    MuiTypography: {
+      styleOverrides: {
+        root: {
+          "&.TypographyCustomHeader": {
+            "&::first-letter": {
+              ...(isDarkMode ? { color: colors.primary.main } : {})
+            }
+          }
+        }
+      }
+    }
   };
 }
 

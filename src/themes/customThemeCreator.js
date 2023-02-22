@@ -26,7 +26,7 @@ export const customThemeCreator = ({customTheme, theme}) => {
     },
     components: componentStyleOverrides(themeOption),
     typography: {
-      fontFamily: ['"Montserrat"', '"Roboto"', '"Rubik"', 'sans-serif'].join(',')
+      fontFamily: ['"Montserrat"', '"Roboto"', 'sans-serif'].join(',')
     }
   });
 };
