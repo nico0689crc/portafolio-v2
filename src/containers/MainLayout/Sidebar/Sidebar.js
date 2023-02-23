@@ -1,5 +1,4 @@
 import { Paper, Drawer, useMediaQuery, useTheme } from "@mui/material";
-import { Box } from "@mui/system";
 import { useSelector, useDispatch } from "react-redux";
 import { uiActions } from 'store/ui/uiSlice';
 import SidebarContent from "./SidebarContent/SidebarContent";
@@ -16,10 +15,8 @@ const Sidebar = () => {
 
   return (
     matchUpMd ? (
-      <Paper elevation={2}>
-        <Box sx={{width: '20rem', height: '100%'}}>
-          <SidebarContent />
-        </Box>
+      <Paper elevation={2} sx={{position: 'fixed', width: '20rem', height: '100%'}}>
+        <SidebarContent />
       </Paper>
     ) : (
       <Drawer
@@ -27,7 +24,8 @@ const Sidebar = () => {
         open={sidebarOpen}
         onClose={toggleSidebarHandler}
       >
-        <Box 
+        <Paper 
+          elevation={2} 
           sx={{
             width: '17.5rem',
             height: '100%',
@@ -37,7 +35,7 @@ const Sidebar = () => {
           }}
         >
           <SidebarContent />
-        </Box>
+        </Paper>
       </Drawer>
     )
   );

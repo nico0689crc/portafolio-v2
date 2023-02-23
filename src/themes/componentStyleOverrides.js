@@ -4,7 +4,7 @@ const componentStyleOverrides = ({isDarkMode, colors, theme}) => {
       styleOverrides: {
         root: {
           "&.MuiFabCustomized": {
-            position: 'absolute',
+            position: 'fixed',
             right: '1.5rem'
           }
         }
