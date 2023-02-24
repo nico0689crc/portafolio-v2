@@ -1,9 +1,12 @@
-import { Box } from "@mui/material";
+import { Box, useMediaQuery, useTheme } from "@mui/material";
 import { Element } from 'react-scroll';
 
 const Home = () => {
+  const theme = useTheme();
+
+
   return (
-    <Box sx={{ overflow: "scroll" }}>
+    <Box sx={{ overflow: "scroll", paddingLeft: useMediaQuery(theme.breakpoints.up('md')) ? '320px' : 0 }}>
       <Box sx={{ height: '60rem', backgroundColor: 'red' }}>
         <Element name="home"></Element>
       </Box>
