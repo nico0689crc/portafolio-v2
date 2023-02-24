@@ -6,11 +6,38 @@ export const uiSlice = createSlice({
   name: "ui",
   initialState: {
     mode:  UI_VARIABLES.UI_MODE_LIGHT,
-    sidebarOpen: false
+    sidebarOpen: false,
+    sideBarMenuItems: [{
+      icon: "home",
+      to: "home",
+      label: "Home",
+      active: true
+    },{
+      icon: "user",
+      to: "about",
+      label: "About Me",
+      active: false
+    },{
+      icon: "book",
+      to: "portfolio",
+      label: "Portfolio",
+      active: false
+    },{
+      icon: "mail",
+      to: "contact",
+      label: "Contact Me",
+      active: false
+    }]
   },
   reducers: {
     toggleSidebar(state, action) {
       state.sidebarOpen = !state.sidebarOpen;
+    },
+    setSidebarMenuItemActive(state, action) {
+      state.sideBarMenuItems = state.sideBarMenuItems.map(item => ({
+        ...item,
+        active: item.to === action.payload.section
+      }))
     },
     initFromLocalStorageModeUi(state, action){
       const storedData = JSON.parse(localStorage.getItem(LOCALSTORAGE_ITEMS.USER_DATA));
