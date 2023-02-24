@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+import LOCALSTORAGE_ITEMS from "constants/local-storage-items";
 import { UI_VARIABLES } from "constants/ui";
 
 export const uiSlice = createSlice({
@@ -11,8 +12,24 @@ export const uiSlice = createSlice({
     toggleSidebar(state, action) {
       state.sidebarOpen = !state.sidebarOpen;
     },
+    initFromLocalStorageModeUi(state, action){
+      const storedData = JSON.parse(localStorage.getItem(LOCALSTORAGE_ITEMS.USER_DATA));
+      state.mode = storedData?.mode || state.mode;
+    },
     toggleUiMode(state, action) {
-      state.mode = state.mode === UI_VARIABLES.UI_MODE_LIGHT ? UI_VARIABLES.UI_MODE_DARK : UI_VARIABLES.UI_MODE_LIGHT;
+      const mode = state.mode === UI_VARIABLES.UI_MODE_LIGHT ? UI_VARIABLES.UI_MODE_DARK : UI_VARIABLES.UI_MODE_LIGHT;
+
+      const storedData = JSON.parse(localStorage.getItem(LOCALSTORAGE_ITEMS.USER_DATA));
+
+      state.mode = mode;
+
+      localStorage.setItem(
+        LOCALSTORAGE_ITEMS.USER_DATA,
+        JSON.stringify({
+          ...storedData,
+          mode: mode
+        })
+      );
     },
   }
 })

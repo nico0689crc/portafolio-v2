@@ -4,6 +4,7 @@ import AppSuspense from 'components/core/AppSuspense';
 import ToggleSidebarButton from './ToggleSidebarButton/ToggleSidebarButton';
 import Sidebar from './Sidebar/Sidebar';
 import ToggleUiModeButton from './ToggleUiModeButton/ToggleUiModeButton';
+import ScrollToTop from 'components/ui/ScrollToTop/ScrollToTop';
 
 const MainLayout = () => {
 
@@ -15,6 +16,7 @@ const MainLayout = () => {
       </AppSuspense>
       <ToggleSidebarButton />
       <ToggleUiModeButton />
+      <ScrollToTop />
     </Box>
   );
 }
