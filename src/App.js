@@ -1,7 +1,6 @@
 import { CssBaseline, StyledEngineProvider } from '@mui/material';
 import { ThemeProvider, useTheme } from '@mui/material/styles';
 import { useSelector, useDispatch } from 'react-redux';
-import { animateScroll } from 'react-scroll';
 import customThemeCreator from 'themes/customThemeCreator';
 import ErrorBoundary from 'components/core/ErrorBoundary/ErrorBoundary'
 import { QueryClientProvider } from "contexts/QueryClient";

@@ -1,23 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import ScrollToTopButton from "./ScrollToTopButton";
 
 export default function ScrollToTop() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    // Button is displayed after scrolling for 500 pixels
-    const toggleVisibility = () => {
-      if (window.pageYOffset > 500) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
-      }
-    };
-
-    window.addEventListener("scroll", toggleVisibility);
-
-    return () => window.removeEventListener("scroll", toggleVisibility);
-  }, []);
 
   useEffect(() => {
     setTimeout(() => {
@@ -30,5 +14,5 @@ export default function ScrollToTop() {
     },100);
   },[]);
 
-  return isVisible ? <ScrollToTopButton /> : null;
+  return <ScrollToTopButton />;
 }
