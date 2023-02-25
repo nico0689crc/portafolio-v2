@@ -4,5 +4,8 @@
     "about_me": "Sobre Mi",
     "portfolio": "Portafolio",
     "contact_me": "Contactame"
+  },
+  "home": {
+    "download_resume": "Descargar CV"
   }
 }

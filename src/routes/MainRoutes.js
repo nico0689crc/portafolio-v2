@@ -2,13 +2,13 @@ import { lazy } from 'react';
 import { Navigate } from 'react-router-dom';
 import MainLayout from 'containers/MainLayout/MainLayout';
 import Loadable from 'components/ui/Loadable/Loadable';
-const Home = Loadable(lazy(() => import('pages/home/Home')));
+const Sections = Loadable(lazy(() => import('pages/sections/Sections')));
 
 export const MainRoutes = {
   path: '/',
   element: <MainLayout />,
   children: [
-    { path: '/', element: <Home /> }
+    { path: '/', element: <Sections /> }
   ]
 };
 

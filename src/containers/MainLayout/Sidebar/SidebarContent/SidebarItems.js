@@ -10,7 +10,6 @@ const SidebarItems = () => {
   const dispatch = useDispatch();
   const { t } = useTranslation();
   const sideBarMenuItems = useSelector(state => state.uiStore.sideBarMenuItems );
-  console.log(sideBarMenuItems);
 
   const clickHandler = (element) => {
     scroller.scrollTo(element, {
