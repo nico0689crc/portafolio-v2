@@ -36,7 +36,7 @@ const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <Stack alignItems="center" justifyContent="center" sx={{ paddingY: '100px' }} gap={3}>
+    <Stack alignItems="center" justifyContent="center" sx={{ height: '100vh', paddingY: {xs: '1.5rem', sm: '4rem'}}} gap={3}>
       <Box 
         component={motion.div}
         key="image-profile"
@@ -45,8 +45,8 @@ const Home = () => {
         exit={{ y: 30, opacity: 0 }}
         transition={{ duration: 0.5 }}
         sx={{ 
-          height: '300px', 
-          width: '300px',
+          height: {xs: '200px', md: '300px'}, 
+          width: {xs: '200px', md: '300px'},
           "& img": {
             width: '100%',
             maskImage: `url('${ProfilePictureShape}');`,
@@ -57,7 +57,8 @@ const Home = () => {
         <img src={ProfilePicture} alt="profile"/>
       </Box>
       <Stack 
-        direction="row" 
+        direction={{xs: 'column', sm: 'row', md: 'column', lg: 'row'}}
+        alignItems="center" 
         gap={1}
         component={motion.div}
         key="full-name"
@@ -66,8 +67,30 @@ const Home = () => {
         exit={{ y: 40, opacity: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <Typography variant="h3" sx={{ fontWeight: '100' }}>NICOLAS ARIEL</Typography>
-        <Typography variant="h3" sx={{ fontWeight: '700' }}>FERNANDEZ</Typography>
+        <Typography 
+          variant="h3" 
+          sx={{ 
+            fontWeight: '100',
+            fontSize: '2rem',
+            [theme.breakpoints.up('md')]: {
+              fontSize: '3rem'
+            } 
+          }}
+        >
+          NICOLAS ARIEL
+        </Typography>
+        <Typography 
+          variant="h3" 
+          sx={{ 
+            fontWeight: '700',
+            fontSize: '2rem',
+            [theme.breakpoints.up('md')]: {
+              fontSize: '3rem'
+            } 
+          }}
+        >
+          FERNANDEZ
+        </Typography>
       </Stack>
       <Stack 
         alignItems="center"
@@ -77,11 +100,20 @@ const Home = () => {
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 50, opacity: 0 }}
         transition={{ duration: 0.7 }}
+        gap={2}
       >
-        <Typography variant="h6" sx={{ fontWeight: '300', fontSize: '1.15rem', color: theme.palette.text.secondary}}>
+        <Typography variant="h6" sx={{ fontWeight: '500', fontSize: '1.15rem', color: theme.palette.text.secondary}}>
           FULLSTACK WEB DEVELOPER  
         </Typography>
-        <Typography variant="h6" sx={{ fontWeight: '300', fontSize: '1.15rem', color: theme.palette.text.secondary}}>
+        <Typography 
+          variant="h6" 
+          sx={{ 
+            fontWeight: '300', 
+            fontSize: '1rem', 
+            color: theme.palette.text.secondary, paddingX: '4rem',
+            textAlign: 'center'
+          }}
+        >
           REACTJS, NODEJS, EXPRESS JS, MONGODB, RUBY ON RAILS   
         </Typography>
       </Stack>
@@ -109,7 +141,7 @@ const Home = () => {
       </Stack>
       <Box
         component={motion.div}
-        key="social-buttons"
+        key="download-resume"
         initial={{ y: 60, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 60, opacity: 0 }}

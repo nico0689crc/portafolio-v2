@@ -30,8 +30,7 @@ const Section = ({ section, position, children }) => {
     <Box 
       ref={ref} 
       sx={{ 
-        backgroundColor: backgroundColor,
-        height: "60rem" 
+        backgroundColor: backgroundColor
       }}
     >
       <Element name={section}>{children}</Element>
