@@ -15,11 +15,12 @@ i18n
   .init({
     debug: false,
     fallbackLng: "en",
+    preload: ['en', 'es'],
     interpolation: {
       escapeValue: false,
     },
     react: {
-      useSuspense: false
+      useSuspense: true
     }
   });
 

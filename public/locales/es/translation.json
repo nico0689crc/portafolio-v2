@@ -1,3 +1,8 @@
 {
-  
+  "sidebarItems": {
+    "home": "Inicio",
+    "about_me": "Sobre Mi",
+    "portfolio": "Portafolio",
+    "contact_me": "Contactame"
+  }
 }

@@ -10,22 +10,22 @@ export const uiSlice = createSlice({
     sideBarMenuItems: [{
       icon: "home",
       to: "home",
-      label: "Home",
+      label: "sidebarItems.home",
       active: true
     },{
       icon: "user",
       to: "about",
-      label: "About Me",
+      label: "sidebarItems.about_me",
       active: false
     },{
       icon: "book",
       to: "portfolio",
-      label: "Portfolio",
+      label: "sidebarItems.portfolio",
       active: false
     },{
       icon: "mail",
       to: "contact",
-      label: "Contact Me",
+      label: "sidebarItems.contact_me",
       active: false
     }]
   },

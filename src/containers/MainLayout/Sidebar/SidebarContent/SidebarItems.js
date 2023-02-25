@@ -1,4 +1,5 @@
 import { Box, Link, List, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
+import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
 import { scroller } from 'react-scroll';
 import FeatherIcon from 'feather-icons-react'
@@ -7,7 +8,9 @@ import { uiActions } from 'store/ui/uiSlice';
 
 const SidebarItems = () => {
   const dispatch = useDispatch();
+  const { t } = useTranslation();
   const sideBarMenuItems = useSelector(state => state.uiStore.sideBarMenuItems );
+  console.log(sideBarMenuItems);
 
   const clickHandler = (element) => {
     scroller.scrollTo(element, {
@@ -27,7 +30,7 @@ const SidebarItems = () => {
             <ListItemIcon className='ListItemIconCustomized'>
               <FeatherIcon icon={item.icon}/>
             </ListItemIcon>
-            <ListItemText className='ListItemTextCustomized' primary={item.label}/>
+            <ListItemText className='ListItemTextCustomized' primary={t(item.label)}/>
           </ListItemButton>
         ))}
       </List>
