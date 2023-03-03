@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 import { uiActions } from 'store/ui/uiSlice';
 import { UI_VARIABLES } from 'constants/ui';
 import Home from "./Home/Home";
-import About from "./About";
+import About from "./About/About";
 import Portfolio from "./Portfolio/Portfolio";
 import Contact from "./Contact";
 
