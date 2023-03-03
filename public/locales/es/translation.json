@@ -7,5 +7,12 @@
   },
   "home": {
     "download_resume": "Descargar CV"
+  },
+  "about": {
+    "title": "Sobre Mi",
+    "title_2": "Conocimientos",
+    "description_1": "Hi, I'm Nicolas Fernandez",
+    "description_2": "Desarrollador Web Fullstack, con conocimiento y experiencia en el desarrollo de aplicaciones web en ReactJs, ExpressJs, NodeJs, MongoDB y Ruby on Rails.",
+    "description_3": "Un profesional con ganas de seguir creciendo y aprendiendo, aportando mis conocimientos a un equipo para alcanzar nuestros objetivos personales y profesionales."
   }
 }

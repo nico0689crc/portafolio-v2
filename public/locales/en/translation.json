@@ -7,5 +7,12 @@
   },
   "home": {
     "download_resume": "Download Resume"
+  },
+  "about": {
+    "title": "About Me",
+    "title_2": "Knowledges",
+    "description_1": "Hi, I'm Nicolas Fernandez",
+    "description_2": "Fullstack Web Developer, with knowledge and experience in the development of web application in ReactJs, ExpressJs, NodeJs, MongoDb and Ruby on Rails.",
+    "description_3": "A professional with the desire to continue growing and learning, contributing with my knowledge to a team to reach our personal and professional goals."
   }
 }

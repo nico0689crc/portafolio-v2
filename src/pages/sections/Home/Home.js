@@ -36,7 +36,7 @@ const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <Stack alignItems="center" justifyContent="center" sx={{ height: '100vh', paddingY: {xs: '1.5rem', sm: '4rem'}}} gap={3}>
+    <Stack alignItems="center" justifyContent="center" sx={{ minHeight: '120vh'}} gap={3}>
       <Box 
         component={motion.div}
         key="image-profile"

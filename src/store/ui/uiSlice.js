@@ -34,10 +34,12 @@ export const uiSlice = createSlice({
       state.sidebarOpen = !state.sidebarOpen;
     },
     setSidebarMenuItemActive(state, action) {
-      state.sideBarMenuItems = state.sideBarMenuItems.map(item => ({
-        ...item,
-        active: item.to === action.payload.section
-      }))
+      state.sideBarMenuItems = state.sideBarMenuItems.map(item => {
+        return {
+          ...item,
+          active: item.to === action.payload.section
+        }
+      })
     },
     initFromLocalStorageModeUi(state, action){
       const storedData = JSON.parse(localStorage.getItem(LOCALSTORAGE_ITEMS.USER_DATA));

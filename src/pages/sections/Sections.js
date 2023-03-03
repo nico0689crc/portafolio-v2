@@ -7,7 +7,7 @@ import { uiActions } from 'store/ui/uiSlice';
 import { UI_VARIABLES } from 'constants/ui';
 import Home from "./Home/Home";
 import About from "./About";
-import Portfolio from "./Portfolio";
+import Portfolio from "./Portfolio/Portfolio";
 import Contact from "./Contact";
 
 const Section = ({ section, position, children }) => {
@@ -27,12 +27,7 @@ const Section = ({ section, position, children }) => {
   }, [inView, section, dispatch]);
 
   return (
-    <Box 
-      ref={ref} 
-      sx={{ 
-        backgroundColor: backgroundColor
-      }}
-    >
+    <Box ref={ref} sx={{ minHeight: '120vh', backgroundColor: backgroundColor, paddingX: { xs: '1rem', lg: '4rem' } }}>
       <Element name={section}>{children}</Element>
     </Box>
   );
