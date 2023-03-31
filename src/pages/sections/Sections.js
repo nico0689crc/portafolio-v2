@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Box, useMediaQuery, useTheme } from "@mui/material";
+import { Box, Container, useMediaQuery, useTheme } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { Element } from 'react-scroll';
 import { useInView } from "react-intersection-observer";
@@ -8,7 +8,7 @@ import { UI_VARIABLES } from 'constants/ui';
 import Home from "./Home/Home";
 import About from "./About/About";
 import Portfolio from "./Portfolio/Portfolio";
-import Contact from "./Contact";
+import Contact from "./Contact/Contact";
 
 const Section = ({ section, position, children }) => {
   const [ref, inView] = useInView();
@@ -27,7 +27,7 @@ const Section = ({ section, position, children }) => {
   }, [inView, section, dispatch]);
 
   return (
-    <Box ref={ref} sx={{ minHeight: '120vh', backgroundColor: backgroundColor, paddingX: { xs: '1rem', lg: '4rem' } }}>
+    <Box ref={ref} sx={{ minHeight: '120vh', backgroundColor: backgroundColor, paddingY: 5, paddingX: { xs: 5, lg: 10 } }}>
       <Element name={section}>{children}</Element>
     </Box>
   );
