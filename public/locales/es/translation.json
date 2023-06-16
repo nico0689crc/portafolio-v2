@@ -1,0 +1,30 @@
+{
+  "sidebarItems": {
+    "home": "Inicio",
+    "about_me": "Sobre Mi",
+    "portfolio": "Portafolio",
+    "contact_me": "Contactame"
+  },
+  "home": {
+    "download_resume": "Descargar CV"
+  },
+  "about": {
+    "title": "Sobre Mi",
+    "title_2": "Conocimientos",
+    "description": "<0>Como desarrollador web completo con más de 2 años de experiencia en el desarrollo de aplicaciones web, he adquirido una base sólida en Javascript (React, NodeJs, Express, MongoDB), CSS, HTML, GIT, AWS, Docker y Ruby on Rails.</0><1>Tengo una amplia experiencia en el desarrollo de aplicaciones web complejas desde cero. Trabajé en varios proyectos en los que diseñé e implementé API RESTful, integré servicios de terceros y creé interfaces de usuario receptivas utilizando React y Ruby on Rails con Bootstrap, Jquery, Postgress.</1><2>Además de mi habilidades técnicas, también estoy bien versado en la metodología de desarrollo Agile y tengo experiencia trabajando en entornos de ritmo rápido donde tuve que priorizar y entregar funciones dentro de plazos ajustados.</2><3>Mi competencia en Ruby on Rails también ha me permitió crear aplicaciones web eficientes con un código limpio y una arquitectura bien definida. Tengo un profundo conocimiento de la arquitectura MVC y la he implementado en mis proyectos para garantizar la separación de preocupaciones y la capacidad de mantenimiento del código.</3><4>Creo que mis excelentes habilidades de comunicación y mi mentalidad orientada al equipo me convertirán en un activo a tu equipo Me apasiona aprender nuevas tecnologías y trabajar con un grupo diverso de personas para ofrecer productos de alta calidad.</4>"
+  },
+  "contact": {
+    "title": "Contacto",
+    "full_name": "Nombre Completo",
+    "contact_email": "Correo Electrónico",
+    "message": "Mensaje",
+    "submit": "Enviar Mensaje",
+    "validations": {
+      "full_name_required": "¿Podrías ingresar tu nombre completo?",
+      "email_required": "Introduzca una dirección de correo electrónico válida.",
+      "email_format": "Introduzca un formato de correo electrónico válido.",
+      "message_required": "Escriba su mensaje.",
+      "message_min_length": "Su mensaje debe tener más de 50 caracteres."
+    }
+  }
+}

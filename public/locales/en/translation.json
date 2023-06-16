@@ -1,0 +1,30 @@
+{
+  "sidebarItems": {
+    "home": "Home",
+    "about_me": "About Me",
+    "portfolio": "Portfolio",
+    "contact_me": "Contact Me"
+  },
+  "home": {
+    "download_resume": "Download Resume"
+  },
+  "about": {
+    "title": "About Me",
+    "title_2": "Knowledges",
+    "description": "<0>As a Full-Stack Web Developer with over 2 years of experience in developing Web Applications, I have acquired a strong foundation in Javascript (React, NodeJs, Express, MongoDB), CSS, HTML, GIT, AWS, Docker, and Ruby on Rails.</0><1>I have extensive experience in developing complex web applications from the ground up. I have worked on various projects where I have designed and implemented RESTful APIs, integrated third-party services, and created responsive front-end interfaces using React and Ruby on Rails with Bootstrap, Jquery, Postgress.</1><2>In addition to my technical skills, I am also well-versed in the Agile development methodology and have experience working in fast-paced environments where I had to prioritize and deliver features within tight deadlines.</2><3>My proficiency in Ruby on Rails has also enabled me to build efficient web applications with clean code and well-defined architecture. I have a deep understanding of MVC architecture and have implemented it in my projects to ensure the separation of concerns and maintainability of code.</3><4>I believe that my excellent communication skills and team-oriented mindset will make me an asset to your team. I am passionate about learning new technologies and working with a diverse group of people to deliver high-quality products.</4>"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "full_name": "Full Name",
+    "contact_email": "Contact Email",
+    "message": "Message",
+    "submit": "Send Message",
+    "validations": {
+      "full_name_required": "Could you enter your complete name?",
+      "email_required": "Enter a valid email address.",
+      "email_format": "Enter a valid email format.",
+      "message_required": "Write your message.",
+      "message_min_length": "Your message must be longer than 50 characters."
+    }
+  }
+}
