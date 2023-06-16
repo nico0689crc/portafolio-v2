@@ -22,11 +22,6 @@ export const uiSlice = createSlice({
       to: "portfolio",
       label: "sidebarItems.portfolio",
       active: false
-    },{
-      icon: "mail",
-      to: "contact",
-      label: "sidebarItems.contact_me",
-      active: false
     }]
   },
   reducers: {

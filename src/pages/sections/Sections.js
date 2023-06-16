@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Box, Container, useMediaQuery, useTheme } from "@mui/material";
+import { Box, useMediaQuery, useTheme } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import { Element } from 'react-scroll';
 import { useInView } from "react-intersection-observer";
@@ -8,7 +8,6 @@ import { UI_VARIABLES } from 'constants/ui';
 import Home from "./Home/Home";
 import About from "./About/About";
 import Portfolio from "./Portfolio/Portfolio";
-import Contact from "./Contact/Contact";
 
 const Section = ({ section, position, children }) => {
   const [ref, inView] = useInView();
@@ -46,9 +45,6 @@ const Sections = () => {
       </Section>
       <Section section="portfolio" position="even">
         <Portfolio />
-      </Section>
-      <Section section="contact" position="odd">
-        <Contact />
       </Section>
     </Box>
   );
