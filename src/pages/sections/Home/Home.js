@@ -1,7 +1,7 @@
 import { Box, Button, Divider, IconButton, Stack, Tooltip, Typography, useTheme } from "@mui/material";
 import ProfilePicture from "assets/images/profile.jpeg";
 import ProfilePictureShape from "assets/images/profile-shape.svg";
-import Resume from "assets/resume/Nicolas-Ariel-Fernandez-Full-Stack-Web-Developer-Resume.pdf"
+import Resume from "assets/resume/Nicolas-Ariel-Fernandez-Resume-Web-Developer.pdf"
 import { GitHub, HomeRepairService, LinkedIn } from "@mui/icons-material";
 import { UI_VARIABLES } from "constants/ui";
 import { useTranslation } from "react-i18next";
