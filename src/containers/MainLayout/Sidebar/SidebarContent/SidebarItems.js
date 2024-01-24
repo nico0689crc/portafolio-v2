@@ -22,7 +22,7 @@ const SidebarItems = () => {
   }
 
   return (
-    <Box sx={{ width: '100%', flexGrow: 1, overflow: "scroll" }}>
+    <Box sx={{ width: '100%', flexGrow: 1, overflow: "hidden" }}>
       <List className='ListCustomized' component="nav" aria-labelledby="nested-list-subheader" sx={{ paddingX: 4 }}>
         {sideBarMenuItems.map((item,index) => (
           <ListItemButton className={cn('MuiListItemButtonCustomized', { 'active': item.active })} component={Link} key={index} onClick={() => clickHandler(item.to)}>

@@ -131,7 +131,7 @@ const Home = () => {
           <GitHub />
         </IconButtonSocialMedia>
         <Divider orientation="vertical" flexItem/>
-        <IconButtonSocialMedia title="LinkedIn" href="https://www.linkedin.com/in/nicolas-ariel-fernandez-8b3655193/">
+        <IconButtonSocialMedia title="LinkedIn" href="https://www.linkedin.com/in/nicolas-ariel-fernandez">
           <LinkedIn />
         </IconButtonSocialMedia>
         <Divider orientation="vertical" flexItem/>

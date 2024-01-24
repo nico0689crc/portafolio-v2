@@ -5,6 +5,7 @@ import { Element } from 'react-scroll';
 import { useInView } from "react-intersection-observer";
 import { uiActions } from 'store/ui/uiSlice';
 import { UI_VARIABLES } from 'constants/ui';
+
 import Home from "./Home/Home";
 import About from "./About/About";
 import Portfolio from "./Portfolio/Portfolio";
@@ -36,7 +37,7 @@ const Sections = () => {
   const theme = useTheme();
 
   return (
-    <Box sx={{ overflow: "scroll", paddingLeft: useMediaQuery(theme.breakpoints.up('md')) ? '320px' : 0 }}>
+    <Box sx={{ overflow: "hidden", paddingLeft: useMediaQuery(theme.breakpoints.up('md')) ? '320px' : 0 }}>
       <Section section="home" position="even">
         <Home />
       </Section>
