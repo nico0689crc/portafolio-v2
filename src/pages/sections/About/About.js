@@ -30,7 +30,7 @@ const About = () => {
   const { t } = useTranslation();
   
   return (
-    <Stack spacing={5}>
+    <Stack gap={5} sx={{ pt: 5 }}>
       <Stack spacing={5}>
         <Typography variant="h4" alignSelf="center">{t('about.title')}</Typography>
         <Stack spacing={5}>
