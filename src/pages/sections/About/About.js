@@ -30,7 +30,7 @@ const About = () => {
   const { t } = useTranslation();
   
   return (
-    <Stack gap={5} sx={{ pt: 5 }}>
+    <Stack gap={8} sx={{ pt: 5 }}>
       <Stack spacing={5}>
         <Typography variant="h4" alignSelf="center">{t('about.title')}</Typography>
         <Stack spacing={5}>
@@ -45,7 +45,7 @@ const About = () => {
       </Stack>
       <Stack spacing={5}>
         <Typography variant="h4" alignSelf="center">{t('about.title_2')}</Typography>
-        <Grid container spacing={5}>
+        <Grid container gap={8}>
           <KnowloedgeContainer source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" knowledgeName="Javascript" />
           <KnowloedgeContainer source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" knowledgeName="ReactJs" />
           <KnowloedgeContainer source="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" knowledgeName="NodeJs" />
