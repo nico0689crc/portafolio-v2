@@ -1,4 +1,4 @@
-import { Box, Button, Divider, IconButton, Stack, Tooltip, Typography, useTheme } from "@mui/material";
+import { Box, Button, Divider, Stack, Typography, useTheme } from "@mui/material";
 import ProfilePicture from "assets/images/profile.jpeg";
 import ProfilePictureShape from "assets/images/profile-shape.svg";
 import Resume from "assets/resume/Nicolas-Ariel-Fernandez-Resume-Web-Developer.pdf"
@@ -6,30 +6,9 @@ import { GitHub, HomeRepairService, LinkedIn } from "@mui/icons-material";
 import { UI_VARIABLES } from "constants/ui";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import IconButtonSocialMedia from "components/ui/IconButtonSocialMedia/IconButtonSocialMedia";
 
-const IconButtonSocialMedia = ({children, href, title}) => {
-  const theme = useTheme();
 
-  return (
-    <Tooltip title={title} placement="top">
-      <IconButton
-        component="a"
-        href={href}
-        aria-label="social"
-        target="_blank" 
-        color={UI_VARIABLES.UI_MODE_DARK === theme.palette.mode ? 'primary' : 'default'}
-        sx={{
-          transition: "all .3s ease",
-          "&:hover": {
-            transform: 'translateY(-5px);'
-          }
-        }}
-      >
-        {children}
-      </IconButton>
-    </Tooltip>
-  );
-}
 
 const Home = () => {
   const theme = useTheme();

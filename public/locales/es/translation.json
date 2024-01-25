@@ -32,10 +32,10 @@
         "p4": "Gestión de bases de datos con PostgreSQL, MySql y MongoDB."
       },
       "list_3":{
-        "title": "Agile Development",
-        "p1": "Familiarity and experience with Agile development methodologies.",
-        "p2": "Thriving in fast-paced environments and meeting tight deadlines.",
-        "p3": "Effective prioritization and delivery of features within project timelines."
+        "title": "Desarrollo Ágil",
+        "p1": "Familiaridad y experiencia con metodologías de desarrollo Ágil.",
+        "p2": "Prosperando en entornos de ritmo rápido y cumpliendo con plazos ajustados.",
+        "p3": "Priorización efectiva y entrega de funcionalidades dentro de los plazos del proyecto."
       },
       "list_4": {
         "title": "Comunicación y Trabajo en Equipo",
@@ -51,18 +51,7 @@
       "p3": "Con una sólida formación, puedo aportar una valiosa combinación de experiencia técnica y un enfoque colaborativo para trabajar. Mi compromiso con el aprendizaje continuo y mi capacidad para prosperar en entornos de ritmo rápido me convierten en un candidato prometedor para contribuir y mejorar cualquier equipo de desarrollo."
     }  
   },
-  "contact": {
-    "title": "Contacto",
-    "full_name": "Nombre Completo",
-    "contact_email": "Correo Electrónico",
-    "message": "Mensaje",
-    "submit": "Enviar Mensaje",
-    "validations": {
-      "full_name_required": "¿Podrías ingresar tu nombre completo?",
-      "email_required": "Introduzca una dirección de correo electrónico válida.",
-      "email_format": "Introduzca un formato de correo electrónico válido.",
-      "message_required": "Escriba su mensaje.",
-      "message_min_length": "Su mensaje debe tener más de 50 caracteres."
-    }
+  "portfolio": {
+    "title": "Portafolio"
   }
 }

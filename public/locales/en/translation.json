@@ -51,18 +51,7 @@
       "p3": "With such a strong background, I can bring a valuable mix of technical expertise, and a collaborative approach to work. My commitment to continuous learning and ability to thrive in fast-paced environments make to me a promising candidate for contributing to and enhancing any development team."
     }
   },
-  "contact": {
-    "title": "Contact Me",
-    "full_name": "Full Name",
-    "contact_email": "Contact Email",
-    "message": "Message",
-    "submit": "Send Message",
-    "validations": {
-      "full_name_required": "Could you enter your complete name?",
-      "email_required": "Enter a valid email address.",
-      "email_format": "Enter a valid email format.",
-      "message_required": "Write your message.",
-      "message_min_length": "Your message must be longer than 50 characters."
-    }
+  "portfolio": {
+    "title": "Portfolio"
   }
 }
