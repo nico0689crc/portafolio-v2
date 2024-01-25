@@ -4,8 +4,8 @@ import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 
 export const languages = {
-  en: { nativeName: "English" },
-  es: { nativeName: "Español" },
+  en: { nativeName: "English", icon: 'flagpack:gb-nir' },
+  es: { nativeName: "Español", icon: 'flagpack:es' },
 };
 
 i18n

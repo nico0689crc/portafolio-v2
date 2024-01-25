@@ -11,7 +11,45 @@
   "about": {
     "title": "Sobre Mi",
     "title_2": "Conocimientos",
-    "description": "<0>Como desarrollador web completo con más de 2 años de experiencia en el desarrollo de aplicaciones web, he adquirido una base sólida en Javascript (React, NodeJs, Express, MongoDB), CSS, HTML, GIT, AWS, Docker y Ruby on Rails.</0><1>Tengo una amplia experiencia en el desarrollo de aplicaciones web complejas desde cero. Trabajé en varios proyectos en los que diseñé e implementé API RESTful, integré servicios de terceros y creé interfaces de usuario receptivas utilizando React y Ruby on Rails con Bootstrap, Jquery, Postgress.</1><2>Además de mi habilidades técnicas, también estoy bien versado en la metodología de desarrollo Agile y tengo experiencia trabajando en entornos de ritmo rápido donde tuve que priorizar y entregar funciones dentro de plazos ajustados.</2><3>Mi competencia en Ruby on Rails también ha me permitió crear aplicaciones web eficientes con un código limpio y una arquitectura bien definida. Tengo un profundo conocimiento de la arquitectura MVC y la he implementado en mis proyectos para garantizar la separación de preocupaciones y la capacidad de mantenimiento del código.</3><4>Creo que mis excelentes habilidades de comunicación y mi mentalidad orientada al equipo me convertirán en un activo a tu equipo Me apasiona aprender nuevas tecnologías y trabajar con un grupo diverso de personas para ofrecer productos de alta calidad.</4>"
+    "description": {
+      "p1": "Soy un dedicado Desarrollador Web Full Stack que prioriza la colaboración dentro del equipo y está apasionado por satisfacer las necesidades de nuestros clientes.",
+      "p2": "Actualmente, estoy aprendiendo activamente y perfeccionando mis habilidades en lenguajes de alta demanda como JavaScript, y su stack asociado, que incluye MongoDB, ExpressJs, ReactJs, NodeJs y Ruby on Rails.",
+      "list_1":{
+        "title": "Habilidades Técnicas",
+        "p1": "Dominio de JavaScript (React, NextJS, Node.js, Express).",
+        "p2": "Habilidades sólidas en desarrollo front-end con HTML, CSS y diseño responsivo.",
+        "p3": "Experiencia en desarrollo back-end con Node.js, Express, MongoDB y Ruby on Rails.",
+        "p4": "Experiencia en diseñar e implementar APIs RESTful.",
+        "p5": "Control de versiones utilizando Git.",
+        "p6": "Computación en la nube con AWS.",
+        "p7": "Contenedorización con Docker."
+      },
+      "list_2":{
+        "title": "Experiencia en Proyectos",
+        "p1": "Diseño e implementación de APIs RESTful para una comunicación fluida entre el front-end y el back-end.",
+        "p2": "Integración de servicios de terceros para mejorar la funcionalidad de la aplicación.",
+        "p3": "Creación de interfaces front-end receptivas y amigables para el usuario utilizando React, NextJS, MUI, Bootstrap y jQuery.",
+        "p4": "Gestión de bases de datos con PostgreSQL, MySql y MongoDB."
+      },
+      "list_3":{
+        "title": "Agile Development",
+        "p1": "Familiarity and experience with Agile development methodologies.",
+        "p2": "Thriving in fast-paced environments and meeting tight deadlines.",
+        "p3": "Effective prioritization and delivery of features within project timelines."
+      },
+      "list_4": {
+        "title": "Comunicación y Trabajo en Equipo",
+        "p1": "Excelentes habilidades de comunicación.",
+        "p2": "Mentalidad orientada al trabajo en equipo, haciendo hincapié en la colaboración y el éxito compartido.",
+        "p3": "Apasionado por trabajar con equipos diversos para ofrecer productos de alta calidad."
+      },
+      "list_5": {
+        "title": "Adaptabilidad y Aprendizaje Continuo",
+        "p1": "Pasión por aprender nuevas tecnologías.",
+        "p2": "Adaptabilidad a las tendencias y herramientas en constante evolución de la industria."
+      },
+      "p3": "Con una sólida formación, puedo aportar una valiosa combinación de experiencia técnica y un enfoque colaborativo para trabajar. Mi compromiso con el aprendizaje continuo y mi capacidad para prosperar en entornos de ritmo rápido me convierten en un candidato prometedor para contribuir y mejorar cualquier equipo de desarrollo."
+    }  
   },
   "contact": {
     "title": "Contacto",
