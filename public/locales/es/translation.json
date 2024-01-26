@@ -52,6 +52,16 @@
     }  
   },
   "portfolio": {
-    "title": "Portafolio"
+    "title": "Portafolio",
+    "projects": {
+      "portfolio": {
+        "title": "Portafolio",
+        "description": "Portafolio es un proyecto realizado con Create React App y MUI para experimentar y probar estas librerias para aprendizaje personal. Como resultado se llevo adelante el desarrollo de mi sitio personal donde cuento un poco acerca de mi y lo voy haciendo."
+      },
+      "kanban": {
+        "title": "Tablero Kanban (En progreso)",
+        "description": "Tablero Kanban es un proyecto que permite generar distintos proyectos y realizar un seguimiento de las tareas del mismo en distintas etapas."
+      }
+    }
   }
 }

@@ -52,6 +52,16 @@
     }
   },
   "portfolio": {
-    "title": "Portfolio"
+    "title": "Portfolio",
+    "projects": {
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "Portfolio is a project carried out with Create React App and MUI to experiment and test these libraries for personal learning. As a result, the development of my personal website was undertaken, where I share a bit about myself and update it as I go along."
+      },
+      "kanban": {
+        "title": "Kanban dashboard (Work in Progress)",
+        "description": "Kanban Board is a project that allows you to create different projects and track their tasks through various stages."
+      }
+    }
   }
 }
