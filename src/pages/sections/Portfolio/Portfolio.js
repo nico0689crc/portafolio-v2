@@ -30,13 +30,6 @@ const projects = [{
   ],
   "website": "#",
   "image": null
-},{
-  "title": "Advance Redux Tutorial",
-  "description": "Elit fugiat nulla dolore quis dolor velit et exercitation dolore commodo. Adipisicing pariatur aliqua laboris pariatur aliquip. Aute ex ullamco id tempor nulla cupidatat excepteur. Ex enim cillum ad nisi officia ad adipisicing excepteur et ea voluptate ex.",
-  "tags": ["ReactJs", "Redux"],
-  "github": "https://github.com/nico0689crc/redux-advanced-tutorial",
-  "website": "#",
-  "image": null
 }];
 
 const ProjectCard = ({project}) => {
