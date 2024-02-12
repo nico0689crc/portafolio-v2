@@ -9,8 +9,8 @@ import QuizGradImage from "assets/images/quizgrad.png";
 import { motion } from "framer-motion";
 
 const projects = [{
-  "title": "portfolio.projects.quizzgrad.title",
-  "description": "portfolio.projects.quizzgrad.description",
+  "title": "portfolio.projects.quizgrad.title",
+  "description": "portfolio.projects.quizgrad.description",
   "tags": ["NextJS", "MUI", "Responsive", "Fullstack", "PostgreSql", "Sequelize", "API", "Typescript", "NestJs", "SocketIo"],
   "github": "https://github.com/nico0689crc/quizz-game-frontend",
   "website": "https://quizgrad.nicolasarielfernandez.tech",
