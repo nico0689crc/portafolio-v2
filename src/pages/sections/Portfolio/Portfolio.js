@@ -5,9 +5,17 @@ import Iconify from "components/ui/Iconify";
 import { useTranslation } from "react-i18next";
 import PortafolioImage from "assets/images/portafolio.png";
 import KanbanImage from "assets/images/kanban.png";
+import QuizGradImage from "assets/images/quizgrad.png";
 import { motion } from "framer-motion";
 
 const projects = [{
+  "title": "portfolio.projects.quizzgrad.title",
+  "description": "portfolio.projects.quizzgrad.description",
+  "tags": ["NextJS", "MUI", "Responsive", "Fullstack", "PostgreSql", "Sequelize", "API", "Typescript", "NestJs", "SocketIo"],
+  "github": "https://github.com/nico0689crc/quizz-game-frontend",
+  "website": "https://quizgrad.nicolasarielfernandez.tech",
+  "image": QuizGradImage
+},{
   "title": "portfolio.projects.kanban.title",
   "description": "portfolio.projects.kanban.description",
   "tags": ["ReactJs", "Docker", "NextJS", "MUI", "Redux", "Typescript", "NodeJS", "ExpressJs", "Mysql", "Sequelize", "Api", "Fullstack", "Sendgrid"],

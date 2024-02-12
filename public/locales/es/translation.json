@@ -59,8 +59,12 @@
         "description": "Portafolio es un proyecto realizado con Create React App y MUI para experimentar y probar estas librerias para aprendizaje personal. Como resultado se llevo adelante el desarrollo de mi sitio personal donde cuento un poco acerca de mi y lo voy haciendo."
       },
       "kanban": {
-        "title": "Tablero Kanban (En progreso)",
+        "title": "Tablero Kanban",
         "description": "Tablero Kanban es un proyecto que permite generar distintos proyectos y realizar un seguimiento de las tareas del mismo en distintas etapas."
+      },
+      "quizgrad": {
+        "title": "QuizGrad Game (En progreso)",
+        "description": "QuizGrad Game es un proyecto fullstack desarrollado en NestJS, NextJS y Postgresql. Consiste en poder crear Quiz e invitar a unirse a cierta cantidad de partcipante para poder participar en tiempo real a traves de Socket.IO."
       }
     }
   }
