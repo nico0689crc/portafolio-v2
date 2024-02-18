@@ -64,7 +64,7 @@
       },
       "quizgrad": {
         "title": "QuizGrad Game (In progress)",
-        "description": "QuizGrad Game is a full-stack project developed in NestJS, NextJS, and Postgresql. It consists of being able to create quizzes and invite a certain number of participants to participate in real-time through Socket.IO."
+        "description": "QuizGrad Game is a full-stack project developed in NestJS, NextJS, and Mysql. It consists of being able to create quizzes and invite a certain number of participants to participate in real-time through Socket.IO."
       }
     }
   }
