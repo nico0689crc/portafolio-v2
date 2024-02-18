@@ -11,8 +11,17 @@ import { motion } from "framer-motion";
 const projects = [{
   "title": "portfolio.projects.quizgrad.title",
   "description": "portfolio.projects.quizgrad.description",
-  "tags": ["NextJS", "MUI", "Responsive", "Fullstack", "PostgreSql", "Sequelize", "API", "Typescript", "NestJs", "SocketIo"],
-  "github": "https://github.com/nico0689crc/quizz-game-frontend",
+  "tags": ["NextJS", "MUI", "Responsive", "Fullstack", "Mysql", "TypeOrm", "API", "Typescript", "NestJs", "SocketIo", "Sendgrid"],
+  "github": [
+    {
+      "title": "Frontend",
+      "url": "https://github.com/nico0689crc/quizz-game-frontend"
+    },
+    {
+      "title": "Backend",
+      "url": "https://github.com/nico0689crc/quiz-grad-nestjs"
+    },
+  ],
   "website": "https://quizgrad.nicolasarielfernandez.tech",
   "image": QuizGradImage
 },{
