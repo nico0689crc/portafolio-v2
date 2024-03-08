@@ -15,23 +15,23 @@ const projects = [{
   "github": [
     {
       "title": "Frontend",
-      "url": "https://github.com/nico0689crc/quizz-game-frontend"
+      "url": "https://github.com/nico0689crc/quiz-grad-frontend"
     },
     {
       "title": "Backend",
-      "url": "https://github.com/nico0689crc/quiz-grad-nestjs"
+      "url": "https://github.com/nico0689crc/quiz-grad-backend"
     },
   ],
   "website": "https://quizgrad.nicolasarielfernandez.tech",
   "image": QuizGradImage
-},{
+}, {
   "title": "portfolio.projects.kanban.title",
   "description": "portfolio.projects.kanban.description",
   "tags": ["ReactJs", "Docker", "NextJS", "MUI", "Redux", "Typescript", "NodeJS", "ExpressJs", "Mysql", "Sequelize", "Api", "Fullstack", "Sendgrid"],
   "github": "https://github.com/nico0689crc/kanban",
   "website": "https://kanban.nicolasarielfernandez.tech",
   "image": KanbanImage
-},{
+}, {
   "title": "portfolio.projects.portfolio.title",
   "description": "portfolio.projects.portfolio.description",
   "tags": ["ReactJs", "MUI"],
@@ -40,7 +40,7 @@ const projects = [{
   "image": PortafolioImage
 }];
 
-const ProjectCard = ({project}) => {
+const ProjectCard = ({ project }) => {
   const { t } = useTranslation();
 
   return (
@@ -65,18 +65,18 @@ const ProjectCard = ({project}) => {
             </Grid>
             <Grid item xs={12} sx={{ borderBottom: theme => `1px dashed ${theme.palette.primary.main}` }}>
               <Stack p={3} spacing={2}>
-                <Link href={!Array.isArray(project.website) ? project.website : "#" } target="_blank">
-                  <Typography variant="subtitle1" 
-                  sx={{ 
-                      display: "flex", 
-                      alignItems: "center", 
-                      gap: "0.5rem", 
-                      color: (theme) => theme.palette.mode === "dark" ? theme.palette.primary.main : theme.palette.text.primary 
+                <Link href={!Array.isArray(project.website) ? project.website : "#"} target="_blank">
+                  <Typography variant="subtitle1"
+                    sx={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "0.5rem",
+                      color: (theme) => theme.palette.mode === "dark" ? theme.palette.primary.main : theme.palette.text.primary
                     }}>
-                      {t(project.title)}
-                    <Iconify icon="fa:external-link" sx={{ width: 15 }}/>
+                    {t(project.title)}
+                    <Iconify icon="fa:external-link" sx={{ width: 15 }} />
                   </Typography>
-                  
+
                 </Link>
                 <Typography variant="body2">{t(project.description)}</Typography>
                 <Grid container gap={1.5}>
@@ -88,7 +88,7 @@ const ProjectCard = ({project}) => {
                 </Grid>
               </Stack>
             </Grid>
-            
+
             <Stack spacing={5} direction="row" justifyContent="center" p={1} width="100%">
               {!Array.isArray(project.github) && (
                 <IconButtonSocialMedia title="GitHub" href={project.github}>
@@ -97,10 +97,10 @@ const ProjectCard = ({project}) => {
               )}
 
               {Array.isArray(project.github) && project.github.map(link => (
-                  <IconButtonSocialMedia title={link.title} href={link.url}>
-                    <GitHub />
-                  </IconButtonSocialMedia>
-                )
+                <IconButtonSocialMedia title={link.title} href={link.url}>
+                  <GitHub />
+                </IconButtonSocialMedia>
+              )
               )}
 
               {!Array.isArray(project.website) && (
@@ -129,7 +129,7 @@ const Portfolio = () => {
     <Stack rowGap={8} py={6}>
       <Typography variant="h4" alignSelf="center">{t('portfolio.title')}</Typography>
       <Grid alignItems="center" container spacing={5}>
-        {projects.map((project,index) => <ProjectCard key={index} project={project}/>)}
+        {projects.map((project, index) => <ProjectCard key={index} project={project} />)}
       </Grid>
     </Stack>
   );
