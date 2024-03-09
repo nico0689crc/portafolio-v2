@@ -8,10 +8,10 @@ const ToggleLanguageButton = () => {
   const { langToChange, onChangeLang } = useLocales();
 
   return (
-    <Fab 
-      color="primary" 
+    <Fab
+      color="primary"
       aria-label="sidebar"
-      className='MuiFabCustomized' 
+      className='MuiFabCustomized'
       sx={{ top: 80 }}
       onClick={onChangeLang}
       component={motion.div}
@@ -21,7 +21,7 @@ const ToggleLanguageButton = () => {
       exit={{ x: 100, opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <Iconify icon={langToChange.icon} sx={{ borderRadius: 0.65, width: 25 }}/>
+      <Iconify icon={langToChange.icon} sx={{ borderRadius: 0.65, width: 25 }} />
     </Fab>
   )
 }
