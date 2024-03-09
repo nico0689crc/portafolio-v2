@@ -22,7 +22,3 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-    - name: Remove Directory
-      run: sudo rm -rf /var/www/portafolio/*
-    - name: Copy Directory
-      run: cp -r /home/nico0689/portafolio-frontend-ar/_work/portafolio-v2/portafolio-v2/build/* /var/www/portafolio
