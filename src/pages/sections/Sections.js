@@ -27,7 +27,7 @@ const Section = ({ section, position, children }) => {
   }, [inView, section, dispatch]);
 
   return (
-    <Box ref={ref} sx={{ minHeight: '120vh', backgroundColor: backgroundColor, paddingX: { xs: 5, lg: 10 } }}>
+    <Box ref={ref} sx={{ minHeight: '120vh', backgroundColor: backgroundColor, paddingX: { xs: 3, lg: 10 } }}>
       <Element name={section}>{children}</Element>
     </Box>
   );

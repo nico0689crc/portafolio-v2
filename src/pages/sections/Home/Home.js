@@ -1,5 +1,5 @@
 import { Box, Button, Divider, Stack, Typography, useTheme } from "@mui/material";
-import ProfilePicture from "assets/images/profile.jpeg";
+import ProfilePicture from "assets/images/profile-picture.jpeg";
 import ProfilePictureShape from "assets/images/profile-shape.svg";
 import Resume from "assets/resume/Nicolas-Ariel-Fernandez-Resume-Web-Developer.pdf"
 import { GitHub, HomeRepairService, LinkedIn } from "@mui/icons-material";
@@ -15,29 +15,29 @@ const Home = () => {
   const { t } = useTranslation();
 
   return (
-    <Stack alignItems="center" justifyContent="start" sx={{ minHeight: '120vh', paddingTop: 10}} gap={3}>
-      <Box 
+    <Stack alignItems="center" justifyContent="start" sx={{ minHeight: '120vh', paddingTop: 10 }} gap={3}>
+      <Box
         component={motion.div}
         key="image-profile"
         initial={{ y: 30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 30, opacity: 0 }}
         transition={{ duration: 0.5 }}
-        sx={{ 
-          height: {xs: '200px', md: '300px'}, 
-          width: {xs: '200px', md: '300px'},
+        sx={{
+          height: { xs: '200px', md: '300px' },
+          width: { xs: '200px', md: '300px' },
           "& img": {
             width: '100%',
             maskImage: `url('${ProfilePictureShape}');`,
             maskRepeat: 'no-repeat'
           }
         }}
-      > 
-        <img src={ProfilePicture} alt="profile"/>
+      >
+        <img src={ProfilePicture} alt="profile" />
       </Box>
-      <Stack 
-        direction={{xs: 'column', sm: 'row', md: 'column', lg: 'row'}}
-        alignItems="center" 
+      <Stack
+        direction={{ xs: 'column', sm: 'row', md: 'column', lg: 'row' }}
+        alignItems="center"
         gap={1}
         component={motion.div}
         key="full-name"
@@ -46,32 +46,32 @@ const Home = () => {
         exit={{ y: 40, opacity: 0 }}
         transition={{ duration: 0.6 }}
       >
-        <Typography 
-          variant="h3" 
-          sx={{ 
+        <Typography
+          variant="h3"
+          sx={{
             fontWeight: '100',
             fontSize: '2rem',
             [theme.breakpoints.up('md')]: {
               fontSize: '3rem'
-            } 
+            }
           }}
         >
           NICOLAS ARIEL
         </Typography>
-        <Typography 
-          variant="h3" 
-          sx={{ 
+        <Typography
+          variant="h3"
+          sx={{
             fontWeight: '700',
             fontSize: '2rem',
             [theme.breakpoints.up('md')]: {
               fontSize: '3rem'
-            } 
+            }
           }}
         >
           FERNANDEZ
         </Typography>
       </Stack>
-      <Stack 
+      <Stack
         alignItems="center"
         component={motion.div}
         key="description"
@@ -81,23 +81,23 @@ const Home = () => {
         transition={{ duration: 0.7 }}
         gap={2}
       >
-        <Typography variant="h6" sx={{ fontWeight: '500', fontSize: '1.15rem', color: theme.palette.text.secondary}}>
-          FULLSTACK WEB DEVELOPER  
+        <Typography variant="h6" sx={{ fontWeight: '500', fontSize: '1.15rem', color: theme.palette.text.secondary }}>
+          FULLSTACK WEB DEVELOPER
         </Typography>
-        <Typography 
-          variant="h6" 
-          sx={{ 
-            fontWeight: '300', 
-            fontSize: '1rem', 
+        <Typography
+          variant="h6"
+          sx={{
+            fontWeight: '300',
+            fontSize: '1rem',
             color: theme.palette.text.secondary, paddingX: '4rem',
             textAlign: 'center'
           }}
         >
-          REACTJS, NODEJS, EXPRESS JS, MONGODB, RUBY ON RAILS   
+          ReactJs, NextJs, NodeJs, ExpressJs, MongoDB, Mysql, Postgress
         </Typography>
       </Stack>
-      <Stack 
-        direction="row" 
+      <Stack
+        direction="row"
         gap={1}
         component={motion.div}
         key="social-buttons"
@@ -109,11 +109,11 @@ const Home = () => {
         <IconButtonSocialMedia title="GitHub" href="https://github.com/nico0689crc">
           <GitHub />
         </IconButtonSocialMedia>
-        <Divider orientation="vertical" flexItem/>
+        <Divider orientation="vertical" flexItem />
         <IconButtonSocialMedia title="LinkedIn" href="https://www.linkedin.com/in/nicolas-ariel-fernandez">
           <LinkedIn />
         </IconButtonSocialMedia>
-        <Divider orientation="vertical" flexItem/>
+        <Divider orientation="vertical" flexItem />
         <IconButtonSocialMedia title="Workana" href="https://www.workana.com/freelancer/ebf3574ed2af2e47ccf8e68f2fc23f11">
           <HomeRepairService />
         </IconButtonSocialMedia>
@@ -124,17 +124,17 @@ const Home = () => {
         initial={{ y: 60, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 60, opacity: 0 }}
-        transition={{ duration: 0.9 }} 
+        transition={{ duration: 0.9 }}
       >
         <Button
           component="a"
           href={Resume}
-          target="_blank" 
+          target="_blank"
           variant="outlined"
-          sx={{ 
-            borderRadius: '30px', 
-            paddingX: '2rem', 
-            paddingY: '1rem', 
+          sx={{
+            borderRadius: '30px',
+            paddingX: '2rem',
+            paddingY: '1rem',
             border: '2px solid',
             ...(UI_VARIABLES.UI_MODE_LIGHT === theme.palette.mode ? { borderColor: theme.palette.text.secondary } : {}),
             ...(UI_VARIABLES.UI_MODE_LIGHT === theme.palette.mode ? { color: theme.palette.text.secondary } : {}),
