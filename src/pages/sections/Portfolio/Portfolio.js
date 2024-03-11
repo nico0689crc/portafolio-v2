@@ -38,27 +38,6 @@ const projects = [{
   "github": "https://github.com/nico0689crc/portafolio-v2",
   "website": "https://nicolasarielfernandez.tech",
   "image": PortafolioImage
-}, {
-  "title": "portfolio.projects.portfolio.title",
-  "description": "portfolio.projects.portfolio.description",
-  "tags": ["ReactJs", "MUI"],
-  "github": "https://github.com/nico0689crc/portafolio-v2",
-  "website": "https://nicolasarielfernandez.tech",
-  "image": PortafolioImage
-}, {
-  "title": "portfolio.projects.portfolio.title",
-  "description": "portfolio.projects.portfolio.description",
-  "tags": ["ReactJs", "MUI"],
-  "github": "https://github.com/nico0689crc/portafolio-v2",
-  "website": "https://nicolasarielfernandez.tech",
-  "image": PortafolioImage
-}, {
-  "title": "portfolio.projects.portfolio.title",
-  "description": "portfolio.projects.portfolio.description",
-  "tags": ["ReactJs", "MUI"],
-  "github": "https://github.com/nico0689crc/portafolio-v2",
-  "website": "https://nicolasarielfernandez.tech",
-  "image": PortafolioImage
 }];
 
 const ProjectCard = ({ project }) => {
