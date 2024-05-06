@@ -1,5 +1,6 @@
 import { GitHub, HomeRepairService, LinkedIn } from "@mui/icons-material";
 import { Box, Button, Divider, Stack, Typography, useTheme } from "@mui/material";
+import Degree from "assets/degree/translation_of_academic_transcript_nicolas_fernandez.pdf";
 import ProfilePicture from "assets/images/profile-picture.jpeg";
 import ProfilePictureShape from "assets/images/profile-shape.svg";
 import Resume from "assets/resume/Nicolas-Ariel-Fernandez-Resume-Web-Developer.pdf";
@@ -113,6 +114,9 @@ const Home = () => {
         </IconButtonSocialMedia>
         <Divider orientation="vertical" flexItem />
         <IconButtonSocialMedia title="Workana" href="https://www.workana.com/freelancer/ebf3574ed2af2e47ccf8e68f2fc23f11">
+          <HomeRepairService />
+        </IconButtonSocialMedia>
+        <IconButtonSocialMedia title="Degree" href={Degree}>
           <HomeRepairService />
         </IconButtonSocialMedia>
       </Stack>
