@@ -1,14 +1,12 @@
+import { GitHub, HomeRepairService, LinkedIn } from "@mui/icons-material";
 import { Box, Button, Divider, Stack, Typography, useTheme } from "@mui/material";
 import ProfilePicture from "assets/images/profile-picture.jpeg";
 import ProfilePictureShape from "assets/images/profile-shape.svg";
-import Resume from "assets/resume/Nicolas-Ariel-Fernandez-Resume-Web-Developer.pdf"
-import { GitHub, HomeRepairService, LinkedIn } from "@mui/icons-material";
-import { UI_VARIABLES } from "constants/ui";
-import { useTranslation } from "react-i18next";
-import { motion } from "framer-motion";
+import Resume from "assets/resume/Nicolas-Ariel-Fernandez-Resume-Web-Developer.pdf";
 import IconButtonSocialMedia from "components/ui/IconButtonSocialMedia/IconButtonSocialMedia";
-
-
+import { UI_VARIABLES } from "constants/ui";
+import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
   const theme = useTheme();
