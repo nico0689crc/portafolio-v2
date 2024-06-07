@@ -21,7 +21,7 @@ const ToggleLanguageButton = () => {
       exit={{ x: 100, opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <Iconify icon={langToChange.icon ?? 'flagpack:gb-nir'} sx={{ borderRadius: 0.65, width: 25 }} />
+      <Iconify icon={langToChange?.icon ?? 'flagpack:gb-nir'} sx={{ borderRadius: 0.65, width: 25 }} />
     </Fab>
   )
 }
