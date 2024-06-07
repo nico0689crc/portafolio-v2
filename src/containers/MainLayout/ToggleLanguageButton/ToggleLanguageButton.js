@@ -1,6 +1,6 @@
 import { Fab } from '@mui/material';
-import { motion } from "framer-motion";
 import Iconify from 'components/ui/Iconify';
+import { motion } from "framer-motion";
 import useLocales from 'hooks/useLocales';
 
 
@@ -21,7 +21,7 @@ const ToggleLanguageButton = () => {
       exit={{ x: 100, opacity: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <Iconify icon={langToChange.icon} sx={{ borderRadius: 0.65, width: 25 }} />
+      <Iconify icon="'flagpack:gb-nir'" sx={{ borderRadius: 0.65, width: 25 }} />
     </Fab>
   )
 }
