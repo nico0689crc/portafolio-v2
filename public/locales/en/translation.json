@@ -14,7 +14,7 @@
     "description": {
       "p1": "I am a dedicated Full Stack Web Developer who prioritizes collaboration within the team and is passionate about serving the needs of our clients.",
       "p2": "Currently, I am actively learning and honing my skills in high-demand languages like Javascript, and its associated stack, including MongoDB, ExpressJs, ReactJs, NodeJs, and Ruby on Rails.",
-      "list_1":{
+      "list_1": {
         "title": "Technical Skills",
         "p1": "Proficiency in JavaScript (React, NextJS, Node.js, Express).",
         "p2": "Strong front-end development skills with HTML, CSS, and responsive designing.",
@@ -24,26 +24,26 @@
         "p6": "Cloud computing with AWS.",
         "p7": "Containerization with Docker."
       },
-      "list_2":{
+      "list_2": {
         "title": "Projects Experience",
         "p1": "Designing and implementing RESTful APIs for seamless communication between frontend and backend.",
         "p2": "Integration of third-party services to enhance application functionality.",
         "p3": "Creation of responsive and user-friendly front-end interfaces using React, NextJS, MUI, Bootstrap and jQuery.",
         "p4": "Database management using PostgreSQL, MySql and MongoDB."
       },
-      "list_3":{
+      "list_3": {
         "title": "Agile Development",
         "p1": "Familiarity and experience with Agile development methodologies.",
         "p2": "Thriving in fast-paced environments and meeting tight deadlines.",
         "p3": "Effective prioritization and delivery of features within project timelines."
       },
-      "list_4":{
+      "list_4": {
         "title": "Communication and Teamwork",
         "p1": "Excellent communication skills.",
         "p2": "A team-oriented mindset, emphasizing collaboration and shared success.",
         "p3": "Passionate about working with diverse teams to deliver high-quality products."
       },
-      "list_5":{
+      "list_5": {
         "title": "Adaptability and Continuous Learning",
         "p1": "A passion for learning new technologies.",
         "p2": "Adaptability to evolving industry trends and tools."
@@ -65,6 +65,10 @@
       "quizgrad": {
         "title": "QuizGrad Game (In progress)",
         "description": "QuizGrad Game is a full-stack project developed in NestJS, NextJS, and Mysql. It consists of being able to create quizzes and invite a certain number of participants to participate in real-time through Socket.IO."
+      },
+      "library": {
+        "title": "Fremantle City Library",
+        "description": "Fremantle City Library is a project based on applying the knowledge acquired during the Diploma of Information Technology (Web Development) course, implementing good development practices, SEO optimization, and UX/UI principles. As part of the process, a design was created in Figma."
       }
     }
   }

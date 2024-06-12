@@ -14,7 +14,7 @@
     "description": {
       "p1": "Soy un dedicado Desarrollador Web Full Stack que prioriza la colaboración dentro del equipo y está apasionado por satisfacer las necesidades de nuestros clientes.",
       "p2": "Actualmente, estoy aprendiendo activamente y perfeccionando mis habilidades en lenguajes de alta demanda como JavaScript, y su stack asociado, que incluye MongoDB, ExpressJs, ReactJs, NodeJs y Ruby on Rails.",
-      "list_1":{
+      "list_1": {
         "title": "Habilidades Técnicas",
         "p1": "Dominio de JavaScript (React, NextJS, Node.js, Express).",
         "p2": "Habilidades sólidas en desarrollo front-end con HTML, CSS y diseño responsivo.",
@@ -24,14 +24,14 @@
         "p6": "Computación en la nube con AWS.",
         "p7": "Contenedorización con Docker."
       },
-      "list_2":{
+      "list_2": {
         "title": "Experiencia en Proyectos",
         "p1": "Diseño e implementación de APIs RESTful para una comunicación fluida entre el front-end y el back-end.",
         "p2": "Integración de servicios de terceros para mejorar la funcionalidad de la aplicación.",
         "p3": "Creación de interfaces front-end receptivas y amigables para el usuario utilizando React, NextJS, MUI, Bootstrap y jQuery.",
         "p4": "Gestión de bases de datos con PostgreSQL, MySql y MongoDB."
       },
-      "list_3":{
+      "list_3": {
         "title": "Desarrollo Ágil",
         "p1": "Familiaridad y experiencia con metodologías de desarrollo Ágil.",
         "p2": "Prosperando en entornos de ritmo rápido y cumpliendo con plazos ajustados.",
@@ -49,7 +49,7 @@
         "p2": "Adaptabilidad a las tendencias y herramientas en constante evolución de la industria."
       },
       "p3": "Con una sólida formación, puedo aportar una valiosa combinación de experiencia técnica y un enfoque colaborativo para trabajar. Mi compromiso con el aprendizaje continuo y mi capacidad para prosperar en entornos de ritmo rápido me convierten en un candidato prometedor para contribuir y mejorar cualquier equipo de desarrollo."
-    }  
+    }
   },
   "portfolio": {
     "title": "Portafolio",
@@ -65,6 +65,10 @@
       "quizgrad": {
         "title": "QuizGrad Game (En progreso)",
         "description": "QuizGrad Game es un proyecto fullstack desarrollado en NestJS, NextJS y Mysql. Consiste en poder crear Quiz e invitar a unirse a cierta cantidad de partcipante para poder participar en tiempo real a traves de Socket.IO."
+      },
+      "library": {
+        "title": "Fremantle City Library",
+        "description": "Fremantle City Library es un proyecto realizado en base a aplicar conocimientos adquiridos durante el curso Diploma of Information Technology (Web Development) aplicando buenas practicas de desarrollo, optimizacion SEO y aplicar UX/UI. Como parte del proceso se llevo adelante un diseño en Figma."
       }
     }
   }

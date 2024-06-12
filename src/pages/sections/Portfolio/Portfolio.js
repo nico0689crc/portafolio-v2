@@ -1,12 +1,13 @@
 import { GitHub, Launch } from "@mui/icons-material";
 import { Box, Card, CardMedia, Chip, Grid, Link, Stack, Typography } from "@mui/material";
+import FremantleLibrary from "assets/images/fremantle-city-library.png";
+import KanbanImage from "assets/images/kanban.png";
+import PortafolioImage from "assets/images/portafolio.png";
+import QuizGradImage from "assets/images/quizgrad.png";
 import IconButtonSocialMedia from "components/ui/IconButtonSocialMedia/IconButtonSocialMedia";
 import Iconify from "components/ui/Iconify";
-import { useTranslation } from "react-i18next";
-import PortafolioImage from "assets/images/portafolio.png";
-import KanbanImage from "assets/images/kanban.png";
-import QuizGradImage from "assets/images/quizgrad.png";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const projects = [{
   "title": "portfolio.projects.quizgrad.title",
@@ -29,6 +30,14 @@ const projects = [{
   "github": "https://github.com/nico0689crc/portafolio-v2",
   "website": "https://nicolasarielfernandez.tech",
   "image": PortafolioImage
+}, {
+  "title": "portfolio.projects.library.title",
+  "description": "portfolio.projects.library.description",
+  "tags": ["HTML", "CSS", "Github Actions", "Javascript"],
+  "github": "https://github.com/nico0689crc/web-development-essentials-skill-assessment",
+  "figma": "https://www.figma.com/design/7QkMpfUSDrWkqeLujS1o9o/Untitled?node-id=13-922",
+  "website": "https://fc-library.nicolasarielfernandez.tech",
+  "image": FremantleLibrary
 }];
 
 const ProjectCard = ({ project }) => {
@@ -101,6 +110,12 @@ const ProjectCard = ({ project }) => {
                 <Launch />
               </IconButtonSocialMedia>
             ))}
+
+            {project.figma && (
+              <IconButtonSocialMedia title="Figma" href={project.figma}>
+                <Iconify icon="solar:figma-bold-duotone" sx={{ width: 25 }} />
+              </IconButtonSocialMedia>
+            )}
           </Stack>
         </Box>
       </Card>
