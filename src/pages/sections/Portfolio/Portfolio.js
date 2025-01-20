@@ -14,21 +14,21 @@ const projects = [{
   "description": "portfolio.projects.quizgrad.description",
   "tags": ["NextJS", "MUI", "Responsive", "Fullstack", "Mysql", "TypeOrm", "API", "Typescript", "NestJs", "SocketIo", "Sendgrid", "Docker", "Github Actions"],
   "github": "https://github.com/nico0689crc/quiz-grad",
-  "website": "https://quizgrad.nicolasarielfernandez.tech",
+  "website": "https://quizgrad.nicolasfernandez.tech",
   "image": QuizGradImage
 }, {
   "title": "portfolio.projects.kanban.title",
   "description": "portfolio.projects.kanban.description",
   "tags": ["ReactJs", "Docker", "NextJS", "MUI", "Redux", "Typescript", "NodeJS", "ExpressJs", "Mysql", "Sequelize", "Api", "Fullstack", "Sendgrid"],
   "github": "https://github.com/nico0689crc/kanban",
-  "website": "https://kanban.nicolasarielfernandez.tech",
+  "website": "https://kanban.nicolasfernandez.tech",
   "image": KanbanImage
 }, {
   "title": "portfolio.projects.portfolio.title",
   "description": "portfolio.projects.portfolio.description",
   "tags": ["ReactJs", "MUI"],
   "github": "https://github.com/nico0689crc/portafolio-v2",
-  "website": "https://nicolasarielfernandez.tech",
+  "website": "https://nicolasfernandez.tech",
   "image": PortafolioImage
 }, {
   "title": "portfolio.projects.library.title",
@@ -36,7 +36,7 @@ const projects = [{
   "tags": ["HTML", "CSS", "Github Actions", "Javascript"],
   "github": "https://github.com/nico0689crc/web-development-essentials-skill-assessment",
   "figma": "https://www.figma.com/design/7QkMpfUSDrWkqeLujS1o9o/Untitled?node-id=13-922",
-  "website": "https://fc-library.nicolasarielfernandez.tech",
+  "website": "https://fc-library.nicolasfernandez.tech",
   "image": FremantleLibrary
 }];
 
