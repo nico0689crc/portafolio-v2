@@ -92,7 +92,7 @@ const Home = () => {
             textAlign: 'center'
           }}
         >
-          ReactJs, NextJs, NodeJs, ExpressJs, MongoDB, Mysql, Postgress
+          ReactJs, NextJs, NodeJs, ExpressJs, Mysql, Postgress, Docker, Github, Git, CI/CD
         </Typography>
       </Stack>
       <Stack
