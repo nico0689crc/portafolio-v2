@@ -36,7 +36,7 @@ const projects = [{
   "tags": ["HTML", "CSS", "Github Actions", "Javascript"],
   "github": "https://github.com/nico0689crc/web-development-essentials-skill-assessment",
   "figma": "https://www.figma.com/design/7QkMpfUSDrWkqeLujS1o9o/Untitled?node-id=13-922",
-  "website": "https://fc-library.nicolasfernandez.tech",
+  "website": "https://nico0689crc.github.io/web-development-essentials-skill-assessment",
   "image": FremantleLibrary
 }];
 
